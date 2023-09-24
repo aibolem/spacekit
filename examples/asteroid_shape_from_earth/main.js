@@ -96,6 +96,7 @@ const obj = viz.createShape('myobj', {
     shapeUrl: './A1046.M1863.obj', // Cacus
     // shapeUrl: './A122.M1825.obj',   // Ariadne
     // enableRotation: true,
+    enableRotation: true,
   },
   rotation: {
     lambdaDeg: 251,
