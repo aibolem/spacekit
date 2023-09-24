@@ -13,9 +13,9 @@ const viz = new Spacekit.Simulation(document.getElementById('main-container'), {
   basePath: '../../src',
   jd: jdStart,
   // startDate: Date.now(),
-  startPaused: true,
+  startPaused: false,
   camera: {
-    enableDrift: false,
+    enableDrift: true,
   },
   debug: {
     showAxes: true,
