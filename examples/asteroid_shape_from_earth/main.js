@@ -1,6 +1,5 @@
 // 1998 XO94
 // const jdStart = 2451162.0;
-const jdStart = 2451162.0;
 
 // Cacus
 const jdTest = 2443568.0;
