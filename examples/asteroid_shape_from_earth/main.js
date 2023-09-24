@@ -95,8 +95,9 @@ const obj = viz.createShape('myobj', {
     // http://astro.troja.mff.cuni.cz/projects/asteroids3D/web.php?page=db_asteroid_detail&asteroid_id=1046
     shapeUrl: './A1046.M1863.obj', // Cacus
     // shapeUrl: './A122.M1825.obj',   // Ariadne
+    shapeUrl: './A122.M1825.obj',   // Ariadne
     // enableRotation: true,
-    enableRotation: true,
+    
   },
   rotation: {
     lambdaDeg: 251,
