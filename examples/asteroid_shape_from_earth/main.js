@@ -143,6 +143,6 @@ function addSphere(x, y, z, color) {
 // equinox
 const equinoxPos = earth
   .getOrbit()
-  .getPositionAtTime(jdEquinox, true);
+  .getPositionAtTime(jdEquinox, true /* debug */);
 addSphere(equinoxPos[0], equinoxPos[1], equinoxPos[2], 0xff0000);
 addSphere(earthpos[0], earthpos[1], earthpos[2], 0x00ff00);
