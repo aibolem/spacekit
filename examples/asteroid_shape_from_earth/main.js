@@ -10,7 +10,7 @@ const jdStart = jdTest;
 
 // Create the visualization and put it in our div.
 const viz = new Spacekit.Simulation(document.getElementById('main-container'), {
-  basePath: '../../src',
+  basePath: 'src',
   jd: jdStart,
   // startDate: Date.now(),
   startPaused: false,
