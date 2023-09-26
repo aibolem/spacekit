@@ -35,7 +35,7 @@ const earth = viz.createObject('earth', Spacekit.SpaceObjectPresets.EARTH);
 // Create an object for asteroid
 const ephemXO94 = new Spacekit.Ephem(
   {
-    epoch: 2451162.0;
+    epoch: 2458600.5;
     a: 2.59606042418,
     e: 0.125657039973,
     i: 13.9887586977,
