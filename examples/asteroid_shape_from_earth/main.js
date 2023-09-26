@@ -26,7 +26,6 @@ viz.renderOnlyInViewport();
 
 // Create a skybox using NASA TYCHO artwork.
 // viz.createSkybox(Spacekit.SkyboxPresets.NASA_TYCHO);
-viz.createSkybox(Spacekit.SkyboxPresets.NASA_TYCHO);
 
 // Create sun and earth
 const sun = viz.createObject('sun', Spacekit.SpaceObjectPresets.SUN);
