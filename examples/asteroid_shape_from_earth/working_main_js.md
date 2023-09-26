@@ -35,7 +35,7 @@ const earth = viz.createObject('earth', Spacekit.SpaceObjectPresets.EARTH);
 // Create an object for asteroid
 const ephemXO94 = new Spacekit.Ephem(
   {
-    epoch: 2458600.5,
+    epoch: 2451162.0;
     a: 2.59606042418,
     e: 0.125657039973,
     i: 13.9887586977,
@@ -95,6 +95,7 @@ const obj = viz.createShape('myobj', {
     shapeUrl: './A1046.M1863.obj', // Cacus
     // shapeUrl: './A122.M1825.obj',   // Ariadne
     // enableRotation: true,
+    
   },
   rotation: {
     lambdaDeg: 251,
