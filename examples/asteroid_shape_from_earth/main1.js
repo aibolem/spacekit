@@ -81,8 +81,8 @@ const ephemAmphitrite = new Spacekit.Ephem(
   },
   'deg',
 );
-// const orb = new Spacekit.Orbit(ephemXO94);
-const orb = new Spacekit.Orbit(ephemCacus);
+const orb = new Spacekit.Orbit(ephemXO94);
+// const orb = new Spacekit.Orbit(ephemCacus);
 // const orb = new Spacekit.Orbit(ephemAriadne);
 // const orb = new Spacekit.Orbit(ephemAmphitrite);
 const astpos = orb.getPositionAtTime(jdStart);
