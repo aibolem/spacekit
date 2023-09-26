@@ -89,10 +89,10 @@ const astpos = orb.getPositionAtTime(jdStart);
 const obj = viz.createShape('myobj', {
   position: astpos,
   shape: {
-    // shapeUrl: './1998_XO94.obj', enableRotation: true,
+    // shapeUrl: './1998_XO94.obj',
 
     // http://astro.troja.mff.cuni.cz/projects/asteroids3D/web.php?page=db_asteroid_detail&asteroid_id=1046
-    shapeUrl: 'A1046.M1863.obj', // Cacus
+    shapeUrl: 'A1046.M1863.obj', enableRotation: true, // Cacus
     // shapeUrl: './A122.M1825.obj',   // Ariadne
     // enableRotation: true,
   },
