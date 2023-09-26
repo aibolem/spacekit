@@ -10,7 +10,7 @@ const jdStart = jdTest;
 
 // Create the visualization and put it in our div.
 const viz = new Spacekit.Simulation(document.getElementById('main-container'), {
-  basePath: './src',
+  basePath: 'src',
   jd: jdStart,
   // startDate: Date.now(),
   startPaused: false,
@@ -89,7 +89,7 @@ const astpos = orb.getPositionAtTime(jdStart);
 const obj = viz.createShape('myobj', {
   position: astpos,
   shape: {
-    shapeUrl: './1998_XO94.obj',
+    shapeUrl: '1998_XO94.obj',
 
     // http://astro.troja.mff.cuni.cz/projects/asteroids3D/web.php?page=db_asteroid_detail&asteroid_id=1046
    // shapeUrl: './A1046.M1863.obj', // Cacus
