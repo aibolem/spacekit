@@ -47,7 +47,7 @@ viz.loadNaturalSatellites().then((loader) => {
 
 // Set up gui and user interactions
 const guiState = {
-  Speed: 0.1,
+  Speed: 0.01,
   Highlight: 'All',
   'Hide other orbits': false,
   'Hide labels': false,
@@ -80,7 +80,7 @@ function resetDisplay() {
   const showLabels = !guiState['Hide labels'];
   moonObjs.forEach((moonObj) => {
     moonObj.getOrbit().setVisibility(true);
-    moonObj.getOrbit().setHexColor(0x440000);
+    moonObj.getOrbit().setHexColor(0x449110);
     moonObj.setLabelVisibility(showLabels);
   });
 }
@@ -107,7 +107,7 @@ function updateFilterDisplay(tag) {
       moonObj.getOrbit().setVisibility(false);
       moonObj.setLabelVisibility(showLabels);
     } else {
-      moonObj.getOrbit().setHexColor(0x440000);
+      moonObj.getOrbit().setHexColor(0x449110);
       moonObj.getOrbit().setVisibility(true);
       moonObj.setLabelVisibility(showLabels);
     }
