@@ -52,7 +52,7 @@ const guiState = {
   'Hide other orbits': false,
   'Hide labels': false,
   'Set Date': function () {
-    const input = prompt('Enter a date in YYYY-MM-DD format', '2000-01-01');
+    const input = prompt('Enter a date in YYYY-MM-DD format', '2023-10-02');
     if (input) {
       viz.setDate(new Date(input));
     }
@@ -80,7 +80,7 @@ function resetDisplay() {
   const showLabels = !guiState['Hide labels'];
   moonObjs.forEach((moonObj) => {
     moonObj.getOrbit().setVisibility(true);
-    moonObj.getOrbit().setHexColor(0x444444);
+    moonObj.getOrbit().setHexColor(0x440000);
     moonObj.setLabelVisibility(showLabels);
   });
 }
@@ -107,7 +107,7 @@ function updateFilterDisplay(tag) {
       moonObj.getOrbit().setVisibility(false);
       moonObj.setLabelVisibility(showLabels);
     } else {
-      moonObj.getOrbit().setHexColor(0x444444);
+      moonObj.getOrbit().setHexColor(0x440000);
       moonObj.getOrbit().setVisibility(true);
       moonObj.setLabelVisibility(showLabels);
     }
