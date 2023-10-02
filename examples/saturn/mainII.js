@@ -74,7 +74,7 @@ const guiState = {
   },
 };
 const gui = new dat.GUI();
-gui.add(guiState, 'Speed', 0, 20).onChange((val) => {
+gui.add(guiState, 'Speed', 0.01).onChange((val) => {
   viz.setJdPerSecond(val);
 });
 
