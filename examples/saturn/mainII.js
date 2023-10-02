@@ -92,7 +92,7 @@ function resetDisplay() {
   const showLabels = !guiState['Hide labels'];
   moonObjs.forEach((moonObj) => {
     moonObj.getOrbit().setVisibility(true);
-    moonObj.getOrbit().setHexColor(0x444444);
+    moonObj.getOrbit().setHexColor(0x440000);
     moonObj.setLabelVisibility(showLabels);
   });
 }
