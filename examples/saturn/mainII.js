@@ -119,7 +119,7 @@ function updateFilterDisplay(tag) {
       moonObj.getOrbit().setVisibility(false);
       moonObj.setLabelVisibility(showLabels);
     } else {
-      moonObj.getOrbit().setHexColor(0x444444);
+      moonObj.getOrbit().setHexColor(0x440000);
       moonObj.getOrbit().setVisibility(true);
       moonObj.setLabelVisibility(showLabels);
     }
