@@ -66,3 +66,6 @@ bild with maximal drift in
 
 
    0.1739865009560048, -0.12915937125168006, 0.10357994703146715,
+
+   ![image](https://github.com/aibolem/spacekit/assets/102619282/02628db2-19aa-4571-bdfb-79def138c1f3)
+
