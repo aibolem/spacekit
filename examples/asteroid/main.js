@@ -40,7 +40,7 @@ const asteroid = viz.createObject('Asteroid Aci', {
   ephem,
   ecliptic: {
     displayLines: true,
-    lineColor: 0x333333,
+    lineColor: 0x440000,
   },
   labelText: 'My asteroid',
 });
