@@ -4,7 +4,7 @@ const viz = new Spacekit.Simulation(document.getElementById('main-container'), {
   startDate: Date.now(),
     camera: {
     initialPosition: [
-   0.00014980565625981512, -0.00030445338891231168, 0.0003616394298897485,
+   1.00014980565625981512, -0.0000030445338891231168, 1.0003616394298897485,
 
    ], 
       enableDrift: true,
