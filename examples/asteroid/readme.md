@@ -30,6 +30,7 @@ bild with maximal drift in
   
 74, -28, 0.7
 
-![Uploading image.png…]()
+![image](https://github.com/aibolem/spacekit/assets/102619282/a391f996-be68-4ce1-8356-55fc4fe6ca2d)
+
 
 74, 28, 7
