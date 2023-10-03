@@ -191,3 +191,12 @@ viz.createObject('neptune', Spacekit.SpaceObjectPresets.NEPTUNE);
 ```
 
 ![example](https://i.imgur.com/WseTJidl.jpg)
+
+# good to know tჸem
+
+*... if tჸey exists in same continium and not only on my / uჼserem Wев сат₽ани©A.A.$.*
+
+https://www.observatoiredeparis.psl.eu/?lang=fr
+
+![image](https://github.com/aibolem/spacekit/assets/102619282/285be460-83ac-4080-aa40-48eecc8e00d6)
+
