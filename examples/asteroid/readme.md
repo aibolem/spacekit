@@ -71,9 +71,15 @@ bild with maximal drift in
    ![image](https://github.com/aibolem/spacekit/assets/102619282/02628db2-19aa-4571-bdfb-79def138c1f3)
 
 
-   2458953.965185185
+   epoque  2458953.965185185
 
 
    ![image](https://github.com/aibolem/spacekit/assets/102619282/0e499916-448e-4fa2-8304-0e5e9400e0d4)
+
+
+
+
+   ![image](https://github.com/aibolem/spacekit/assets/102619282/0088385e-7432-4da8-b24d-323d0ae3da27)
+
 
 
