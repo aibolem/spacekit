@@ -1,7 +1,9 @@
 Å©იi
 
 https://astro.troja.mff.cuni.cz/projects/damit/asteroid_models/view/3793
- 
+
+ ![image](https://github.com/aibolem/spacekit/assets/102619282/a1a2a3a6-adf1-42ce-a0f4-7b8f19b53ffa)
+
  
  camera: {
     initialPosition: [
@@ -41,3 +43,8 @@ bild with maximal drift in
 
 ![image](https://github.com/aibolem/spacekit/assets/102619282/de7a62d1-30a0-479a-9644-4333582f6510)
 
+6, -18, 2,
+
+![image](https://github.com/aibolem/spacekit/assets/102619282/71c3284d-9eca-4c09-a6ff-045619426031)
+
+180, 0, 0, 1,
