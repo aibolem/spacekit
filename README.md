@@ -4,7 +4,8 @@
 
 http://tdc-www.harvard.edu/wcstools/scat/scat.html
 
-![Uploading image.png…]()
+![image](https://github.com/aibolem/spacekit/assets/102619282/bb2e20ee-e9f5-4c58-b659-fb569049531a)
+
 
 
 [![Build Status](https://travis-ci.com/typpo/spacekit.svg?branch=master)](https://travis-ci.com/typpo/spacekit)
