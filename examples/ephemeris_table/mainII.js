@@ -1,6 +1,6 @@
 // Create the visualization and put it in our div.
 const viz = new Spacekit.Simulation(document.getElementById('main-container'), {
-  basePath: '../../src',
+  basePath: 'src',
   startDate: new Date(2023, 0, 2),
   jdPerSecond: 30,
   camera: {
