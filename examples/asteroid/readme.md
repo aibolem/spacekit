@@ -52,3 +52,8 @@ bild with maximal drift in
 ![image](https://github.com/aibolem/spacekit/assets/102619282/5f2f6427-0909-4541-bc36-c2d418eff47c)
 
 360, 10, 11, 73,
+
+![image](https://github.com/aibolem/spacekit/assets/102619282/404e2678-dedd-4357-8c7a-4efb070143cc)
+
+
+360, 10, 11, 73,
