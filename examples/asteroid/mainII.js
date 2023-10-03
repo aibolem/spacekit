@@ -4,7 +4,7 @@ const viz = new Spacekit.Simulation(document.getElementById('main-container'), {
   startDate: Date.now(),
     camera: {
     initialPosition: [
-      -1.1739865009560048, -0.12915937125168006, -2.03616394298897485,
+      5.38533, 0.19893, 22.11137,
     ], 
       enableDrift: true,
   },
@@ -28,7 +28,7 @@ viz.createObject('Neptune', Spacekit.SpaceObjectPresets.NEPTUNE);
 
 const ephem = new Spacekit.Ephem(
   {
-    epoch: 2460220.5,
+    epoch: 2460221.5,
     a: 5.38533,
     e: 0.19893,
     i: 22.11137,
@@ -45,7 +45,7 @@ const asteroid = viz.createObject('Asteroid Aci', {
     displayLines: true,
     lineColor: 0x440000,
   },
-  labelText: 'Amphitrite',
+  labelText: 'Asteroid Aci',
 });
 
 // Set up viewport
