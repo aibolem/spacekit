@@ -87,3 +87,8 @@ bild with maximal drift in
 
 ![image](https://github.com/aibolem/spacekit/assets/102619282/96c861bf-ee6a-437b-a669-ac336523776a)
 
+
+   1.00014980565625981512, -0.0000030445338891231168, 1.0003616394298897485,
+
+
+   
