@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+  <title>Ephemeris Table Example</title>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html, body {
+      margin: 0;
+      overflow: hidden;
+      font-family: sans-serif;
+    }
+
+    #main-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .sim-info {
+      position:absolute;
+      right: 0;
+      background-color:#440000;
+      padding: 1em;
+      color: #fff;
+     }
+  </style>
+<body>
+<div class="sim-info">
+  Current Date:<span id="current-date">?</span>
+  <br>
+  <button id="btn-slower">Slower</button>
+  <button id="btn-faster">Faster</button>
+  <button id="btn-start">Start</button>
+  <button id="btn-stop">Stop</button>
+  <button id="btn-set-time">Set Time</button>
+  <button id="btn-set-jd-per-second">Set Jd/s</button>
+</div>
+<div id="main-container">
+</div>
+
+<script src="../../build/spacekitII_png.js"></script>
+
+<script src="mainII.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-NXV5HFPP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GTM-NXV5HFPP');
+</script>
+</body>
+</html>
