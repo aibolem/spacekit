@@ -7,6 +7,7 @@ Change voice functions to fysi©hemi€ [₽_RUßI Ann] u пака нырнём 
 
 *Y3BAHT d'bA℞жg NA3CO or Гексанитрокобальтат(III) нат₽µЯR₾ი*
 
+2023.10.03 @DAYTime
 
 
 https://en.wikipedia.org/wiki/Themisto_(moon)
