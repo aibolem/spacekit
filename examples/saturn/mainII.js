@@ -4,7 +4,7 @@
 
 const viz = new Spacekit.Simulation(document.getElementById('main-container'), {
   jdPerSecond: 0.01,
-  particleTextureUrl: '{{assets}}/sprites/fuzzyparticle.png',
+  particleTextureUrl: 'src/assets/sprites/fuzzyparticle.png',
   unitsPerAu: 100.0,
   camera: {
     initialPosition: [
@@ -25,6 +25,7 @@ viz.createObject(
 
 // Create a starry background using Yale Bright Star Catalog Data.
 viz.createStars();
+ particleTextureUrl: 'bsc/bsc5.dat/bsc5.dat';
 
 // Create saturn
 const saturn = viz.createSphere('saturn', {
@@ -62,6 +63,13 @@ viz.loadNaturalSatellites().then((loader) => {
  *****************************************************************************/
 
 const guiState = {
+  window.onload = function() {
+   var json = '{ \
+  "preset": "Default",\
+  "closed": true,\
+  "remembered": {\
+    "Default": {\
+      "0": {\
   Speed: 0.01,
   Highlight: 'All',
   'Hide other orbits': false,
@@ -76,6 +84,7 @@ const guiState = {
 const gui = new dat.GUI();
 gui.add(guiState, 'Speed', 0.01).onChange((val) => {
   viz.setJdPerSecond(val);
+  
 });
 
 // Map from a category string to the tag in NaturalSatellites object.
@@ -98,7 +107,7 @@ function resetDisplay() {
 }
 
 function updateFilterDisplay(tag) {
-  if (tag === 'ALL') {
+  if (tag === 'NONE') {
     resetDisplay();
     return;
   }
