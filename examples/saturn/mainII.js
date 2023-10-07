@@ -64,9 +64,7 @@ viz.loadNaturalSatellites().then((loader) => {
 
 const guiState = {
   window.onload = function() {
-   var json = '{ \
-  "preset": "Default",\
-  "closed": true,\
+  "closed": true,
   Speed: 0.01,
   Highlight: 'All',
   'Hide other orbits': false,
@@ -104,7 +102,7 @@ function resetDisplay() {
 }
 
 function updateFilterDisplay(tag) {
-  if (tag === 'NONE') {
+  if (tag === 'ALL') {
     resetDisplay();
     return;
   }
