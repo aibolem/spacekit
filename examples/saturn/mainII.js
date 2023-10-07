@@ -67,9 +67,6 @@ const guiState = {
    var json = '{ \
   "preset": "Default",\
   "closed": true,\
-  "remembered": {\
-    "Default": {\
-      "0": {\
   Speed: 0.01,
   Highlight: 'All',
   'Hide other orbits': false,
