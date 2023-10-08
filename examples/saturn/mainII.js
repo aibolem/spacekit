@@ -101,7 +101,7 @@ function resetDisplay() {
 }
 
 function updateFilterDisplay(tag) {
-  if (tag === 'ALL') {
+  if (tag === 'NONE') {
     resetDisplay();
     return;
   }
