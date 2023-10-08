@@ -94,7 +94,7 @@ function resetDisplay() {
   moonObjs.forEach((moonObj) => {
     moonObj.getOrbit().setVisibility(true);
     moonObj.getOrbit().setHexColor(0x444444);
-    moonObj.setLabelVisibility(true);
+    moonObj.setLabelVisibility(showLabels);
   });
 }
 
