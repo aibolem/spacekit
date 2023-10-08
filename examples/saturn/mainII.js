@@ -99,7 +99,7 @@ function resetDisplay() {
 }
 
 function updateFilterDisplay(tag) {
-  if (tag === 'All') {
+  if (tag === 'ALL') {
     resetDisplay();
     return;
   }
