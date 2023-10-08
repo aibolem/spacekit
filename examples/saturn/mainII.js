@@ -67,9 +67,6 @@ const guiState = {
   Highlight: 'NONE',
   'Hide other orbits': true,
   'Hide labels': true,
-   this.openControls = false;
-};
-{
   'Set Date': function () {
     const input = prompt('Enter a date in YYYY-MM-DD format', '2023-10-08');
     if (input) {
