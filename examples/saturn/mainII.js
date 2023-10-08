@@ -63,12 +63,13 @@ viz.loadNaturalSatellites().then((loader) => {
  *****************************************************************************/
 
 const guiState = {
+  OpenControls: false,
   Speed: 0.05,
-  Highlight: 'All',
-  'Hide other orbits': false,
-  'Hide labels': false,
+  Highlight: 'NONE',
+  'Hide other orbits': true,
+  'Hide labels': true,
   'Set Date': function () {
-    const input = prompt('Enter a date in YYYY-MM-DD format', '2000-01-01');
+    const input = prompt('Enter a date in YYYY-MM-DD format', '2023-10-08');
     if (input) {
       viz.setDate(new Date(input));
     }
@@ -92,14 +93,14 @@ const tagFilters = {
 function resetDisplay() {
   const showLabels = !guiState['Hide labels'];
   moonObjs.forEach((moonObj) => {
-    moonObj.getOrbit().setVisibility(true);
+    moonObj.getOrbit().setVisibility(false);
     moonObj.getOrbit().setHexColor(0x444444);
-    moonObj.setLabelVisibility(showLabels);
+    moonObj.setLabelVisibility(false);
   });
 }
 
 function updateFilterDisplay(tag) {
-  if (tag === 'ALL') {
+  if (tag === 'NONE') {
     resetDisplay();
     return;
   }
