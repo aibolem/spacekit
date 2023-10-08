@@ -92,14 +92,14 @@ const tagFilters = {
 function resetDisplay() {
   const showLabels = !guiState['Hide labels'];
   moonObjs.forEach((moonObj) => {
-    moonObj.getOrbit().setVisibility(false);
+    moonObj.getOrbit().setVisibility(true);
     moonObj.getOrbit().setHexColor(0x444444);
-    moonObj.setLabelVisibility(false);
+    moonObj.setLabelVisibility(true);
   });
 }
 
 function updateFilterDisplay(tag) {
-  if (tag === 'NONE') {
+  if (tag === 'ALL') {
     resetDisplay();
     return;
   }
