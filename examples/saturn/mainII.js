@@ -64,9 +64,9 @@ viz.loadNaturalSatellites().then((loader) => {
 
 const guiState = {
   Speed: 0.05,
-  Highlight: 'NONE',
-  'Hide other orbits': true,
-  'Hide labels': true,
+  Highlight: 'ALL',
+  'Hide other orbits': false,
+  'Hide labels': false,
   'Set Date': function () {
     const input = prompt('Enter a date in YYYY-MM-DD format', '2023-10-08');
     if (input) {
