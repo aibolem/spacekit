@@ -63,12 +63,12 @@ viz.loadNaturalSatellites().then((loader) => {
  *****************************************************************************/
 
 const guiState = {
-  Speed: 0.05,
+  Speed: 0.01,
   Highlight: 'All',
   'Hide other orbits': false,
   'Hide labels': false,
   'Set Date': function () {
-    const input = prompt('Enter a date in YYYY-MM-DD format', '2000-01-01');
+    const input = prompt('Enter a date in YYYY-MM-DD format', '2023-10-08');
     if (input) {
       viz.setDate(new Date(input));
     }
