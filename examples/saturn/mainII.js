@@ -63,23 +63,20 @@ viz.loadNaturalSatellites().then((loader) => {
  *****************************************************************************/
 
 const guiState = {
-  window.onload = function() {
-  "closed": true,
-  Speed: 0.01,
+  Speed: 0.05,
   Highlight: 'All',
   'Hide other orbits': false,
   'Hide labels': false,
   'Set Date': function () {
-    const input = prompt('Enter a date in YYYY-MM-DD format', '2023-10-02');
+    const input = prompt('Enter a date in YYYY-MM-DD format', '2000-01-01');
     if (input) {
       viz.setDate(new Date(input));
     }
   },
 };
 const gui = new dat.GUI();
-gui.add(guiState, 'Speed', 0.01).onChange((val) => {
+gui.add(guiState, 'Speed', 0, 20).onChange((val) => {
   viz.setJdPerSecond(val);
-  
 });
 
 // Map from a category string to the tag in NaturalSatellites object.
@@ -96,7 +93,7 @@ function resetDisplay() {
   const showLabels = !guiState['Hide labels'];
   moonObjs.forEach((moonObj) => {
     moonObj.getOrbit().setVisibility(true);
-    moonObj.getOrbit().setHexColor(0x440000);
+    moonObj.getOrbit().setHexColor(0x444444);
     moonObj.setLabelVisibility(showLabels);
   });
 }
@@ -123,7 +120,7 @@ function updateFilterDisplay(tag) {
       moonObj.getOrbit().setVisibility(false);
       moonObj.setLabelVisibility(showLabels);
     } else {
-      moonObj.getOrbit().setHexColor(0x440000);
+      moonObj.getOrbit().setHexColor(0x444444);
       moonObj.getOrbit().setVisibility(true);
       moonObj.setLabelVisibility(showLabels);
     }
