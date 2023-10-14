@@ -1,5 +1,6 @@
 /******************************************************************************
- * Visualization setup and definitions
+ * Visualization setup and definitions https://aibolem.github.io/spacekit/docs/modules.html#Coordinate3d
+ * https://aibolem.github.io/spacekit/docs/classes/Ephem.html
  *****************************************************************************/
 
 const viz = new Spacekit.Simulation(document.getElementById('main-container'), {
@@ -64,7 +65,7 @@ viz.loadNaturalSatellites().then((loader) => {
 
 const guiState = {
   Speed: 0.01,
-  Highlight: 'All',
+  Highlight: 'REGULAR',
   'Hide other orbits': true,
   'Hide labels': false,
   'Set Date': function () {
