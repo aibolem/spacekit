@@ -64,7 +64,7 @@ viz.loadNaturalSatellites().then((loader) => {
 
 const guiState = {
   Speed: 0.01,
-  Highlight: 'Lost (uncorfirmed)',
+  Highlight: 'REGULAR',
   'Hide other orbits': true,
   'Hide labels': false,
   'Set Date': function () {
@@ -99,7 +99,7 @@ function resetDisplay() {
 }
 
 function updateFilterDisplay(tag) {
-  if (tag === 'Lost') {
+  if (tag === 'ALL') {
     resetDisplay();
     return;
   }
