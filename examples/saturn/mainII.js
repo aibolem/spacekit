@@ -64,11 +64,11 @@ viz.loadNaturalSatellites().then((loader) => {
 
 const guiState = {
   Speed: 0.05,
-  Highlight: 'NONE',
+  Highlight: 'Lost (uncorfirmed)',
   'Hide other orbits': true,
-  'Hide labels': true,
+  'Hide labels': false,
   'Set Date': function () {
-    const input = prompt('Enter a date in YYYY-MM-DD format', '2023-10-08');
+    const input = prompt('Enter a date in YYYY-MM-DD format', '2023-10-15');
     if (input) {
       viz.setDate(new Date(input));
     }
@@ -82,7 +82,7 @@ gui.add(guiState, 'Speed', 0, 20).onChange((val) => {
 // Map from a category string to the tag in NaturalSatellites object.
 const tagFilters = {
   All: 'ALL',
-  None: 'NONE',
+  'None': 'NONE',
   'Regular orbits': 'REGULAR',
   'Irregular orbits': 'IRREGULAR',
   'Newly discovered': 'NEWLY_DISCOVERED',
@@ -99,7 +99,7 @@ function resetDisplay() {
 }
 
 function updateFilterDisplay(tag) {
-  if (tag === 'NONE') {
+  if (tag === 'Lost (uncorfirmed)') {
     resetDisplay();
     return;
   }
@@ -139,7 +139,7 @@ gui.add(guiState, 'Hide other orbits').onChange(() => {
 gui.add(guiState, 'Hide labels').onChange(() => {
   updateFilterDisplay(tagFilters[guiState.Highlight]);
 });
-//gui.add(guiState, 'Set Date');
+gui.add(guiState, 'Set Date');
              // Just Close 
 gui.close();
 
