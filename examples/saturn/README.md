@@ -25,4 +25,4 @@ dat.gui tips:
 
 https://stackoverflow.com/questions/16166440/refresh-dat-gui-with-new-values
 https://stackoverflow.com/questions/24078251/how-to-hideshow-a-folder-in-dat-guis-controls
-for more see issues
+for more see issues #25
