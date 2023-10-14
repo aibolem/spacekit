@@ -25,6 +25,7 @@ viz.createObject(
 
 // Create a starry background using Yale Bright Star Catalog Data.
 viz.createStars();
+particleTextureUrl: 'bsc/bsc5.dat/bsc5.dat';
 
 // Create saturn
 const saturn = viz.createSphere('saturn', {
@@ -36,7 +37,7 @@ const saturn = viz.createSphere('saturn', {
     { radii: 60, segments: 8 },
   ],
   atmosphere: {
-    enable: true,
+    enable: false,
   },
   occludeLabels: true,
 });
@@ -62,7 +63,7 @@ viz.loadNaturalSatellites().then((loader) => {
  *****************************************************************************/
 
 const guiState = {
-  Speed: 0.05,
+  Speed: 0.01,
   Highlight: 'All',
   'Hide other orbits': true,
   'Hide labels': false,
@@ -139,5 +140,8 @@ gui.add(guiState, 'Hide labels').onChange(() => {
   updateFilterDisplay(tagFilters[guiState.Highlight]);
 });
 //gui.add(guiState, 'Set Date');
+
+             // Just Close 
+gui.close();
 
 window.THREE = Spacekit.THREE;
