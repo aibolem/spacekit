@@ -140,5 +140,7 @@ gui.add(guiState, 'Hide labels').onChange(() => {
   updateFilterDisplay(tagFilters[guiState.Highlight]);
 });
 //gui.add(guiState, 'Set Date');
+             // Just Close 
+gui.close();
 
 window.THREE = Spacekit.THREE;
