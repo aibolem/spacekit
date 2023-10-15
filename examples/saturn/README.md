@@ -40,3 +40,9 @@ camera: {
     initialPosition: [0.1739865009560048, -0.030445338891231168, 1.03616394298897485,],},
 ![image](https://github.com/aibolem/spacekit/assets/102619282/ff9c7fa3-c60b-45e6-90a2-cdd7e552877f)
 
+
+camera: {
+    initialPosition: [ 0.1739865009560048, -0.030445338891231168, 0.03616394298897485,],},
+
+    
+
