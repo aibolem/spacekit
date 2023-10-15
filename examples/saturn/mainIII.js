@@ -80,7 +80,7 @@ const guiState = {
   Speed: 0.01,
   Highlight: 'All',
   'Hide other orbits': false,
-  'Hide labels': false,
+  'Hide labels': true,
   'Set Date': function () {
     const input = prompt('Enter a date in YYYY-MM-DD format', '2023-10-15');
     if (input) {
