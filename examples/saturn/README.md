@@ -69,6 +69,13 @@ camera: {
 
     ![image](https://github.com/aibolem/spacekit/assets/102619282/43f65412-6c66-4369-a1cb-c03a2a75620e)
 
+    0.2739865009560048, -0.030445338891231168, 0.05616394298897485,
+
+    - zoom
+
+    ![image](https://github.com/aibolem/spacekit/assets/102619282/440c3636-527b-4578-ba96-e5ecc713a20a)
+
+
 
     julian calendar 2086308.5 = Tue, 07 Jan 1000 00:00:00 GMT (and its minimum to calculate shadow on sky objects on https://astro.troja.mff.cuni.cz/projects/damit/asteroid_models/view/1863)
 
