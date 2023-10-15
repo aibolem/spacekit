@@ -4,5 +4,9 @@
 
 # flare0 https://en.wikipedia.org/wiki/Lens_flare
 
+# is our sun a lens?
+
+![lensflare0](https://github.com/aibolem/spacekit/assets/102619282/80dc030d-c6ab-44a2-94af-f2dc23a850b1)
+
 
 
