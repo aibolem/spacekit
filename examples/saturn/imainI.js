@@ -10,6 +10,7 @@ const viz = new Spacekit.Simulation(document.getElementById('main-container'), {
   camera: {
     initialPosition: [
       0.04, -0.030445338891231168, 0.03616394298897485,
+      /* 0.04, -0.030445338891231168, 0.03616394298897485, grandiosa */
      /* 0.1739865009560048, -0.12915937125168006, 0.10357994703146715, */
       /* jupiter       */
     /*  0.0014980565625981512, -0.030445338891231168, 0.03616394298897485, huge */
@@ -81,7 +82,7 @@ const guiState = {
   Speed: 0.01,
   Highlight: 'All',
   'Hide other orbits': false,
-  'Hide labels': true,
+  'Hide labels': false,
   'Set Date': function () {
     const input = prompt('Enter a date in YYYY-MM-DD format', '2023-10-15');
     if (input) {
@@ -109,7 +110,7 @@ function resetDisplay() {
   moonObjs.forEach((moonObj) => {
     moonObj.getOrbit().setVisibility(true);
     moonObj.getOrbit().setHexColor(0x444444);
-    moonObj.setLabelVisibility(hideLabels);
+    moonObj.setLabelVisibility(showLabels);
   });
 }
 
@@ -130,14 +131,14 @@ function updateFilterDisplay(tag) {
     if (matching.has(moonObj.getId())) {
       moonObj.getOrbit().setVisibility(true);
       moonObj.getOrbit().setHexColor(0xffff00);
-      moonObj.setLabelVisibility(hideLabels);
+      moonObj.setLabelVisibility(showLabels);
     } else if (guiState['Hide other orbits']) {
       moonObj.getOrbit().setVisibility(false);
-      moonObj.setLabelVisibility(hideLabels);
+      moonObj.setLabelVisibility(showLabels);
     } else {
       moonObj.getOrbit().setHexColor(0x444444);
       moonObj.getOrbit().setVisibility(true);
-      moonObj.setLabelVisibility(hideLabels);
+      moonObj.setLabelVisibility(showLabels);
     }
   });
 }
