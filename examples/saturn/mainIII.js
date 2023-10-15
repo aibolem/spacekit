@@ -5,7 +5,7 @@
 
 const viz = new Spacekit.Simulation(document.getElementById('main-container'), {
   jdPerSecond: 0.01,
-  particleTextureUrl: '{{assets}}/sprites/fuzzyparticle.png',
+  particleTextureUrl: 'assets/sprites/fuzzyparticle.png',
   unitsPerAu: 100.0,
   camera: {
     initialPosition: [
