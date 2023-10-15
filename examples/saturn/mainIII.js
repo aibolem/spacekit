@@ -43,7 +43,7 @@ const saturn = viz.createSphere('saturn', {
     { radii: 60, segments: 8 },
   ],
   atmosphere: {
-    enable: false,
+    enable: true,
   },
   occludeLabels: true,
 });
