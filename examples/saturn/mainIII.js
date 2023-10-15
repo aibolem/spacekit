@@ -70,7 +70,7 @@ viz.loadNaturalSatellites().then((loader) => {
 
 const guiState = {
   Speed: 0.01,
-  Highlight: 'REGULAR',
+  Highlight: 'All',
   'Hide other orbits': true,
   'Hide labels': false,
   'Set Date': function () {
@@ -145,7 +145,7 @@ gui.add(guiState, 'Hide other orbits').onChange(() => {
 gui.add(guiState, 'Hide labels').onChange(() => {
   updateFilterDisplay(tagFilters[guiState.Highlight]);
 });
-//gui.add(guiState, 'Set Date');
+gui.add(guiState, 'Set Date');
 
              // Just Close 
 gui.close();
