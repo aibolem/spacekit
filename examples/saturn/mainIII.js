@@ -13,7 +13,8 @@ const viz = new Spacekit.Simulation(document.getElementById('main-container'), {
       /* jupiter       */
     /*  0.0014980565625981512, -0.030445338891231168, 0.03616394298897485,*/
       /* teegarden 0.04, 0.16, 2.6 */
-     0.1739865009560048, -0.030445338891231168, 0.03616394298897485, 
+   /*  0.1739865009560048, -0.030445338891231168, 0.03616394298897485, */
+      0.1739865009560048, -0.030445338891231168, 1.03616394298897485,
       
     ],
   },
@@ -71,7 +72,7 @@ viz.loadNaturalSatellites().then((loader) => {
 const guiState = {
   Speed: 0.01,
   Highlight: 'All',
-  'Hide other orbits': true,
+  'Hide other orbits': false,
   'Hide labels': false,
   'Set Date': function () {
     const input = prompt('Enter a date in YYYY-MM-DD format', '2023-10-15');
