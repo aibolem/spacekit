@@ -109,7 +109,7 @@ function resetDisplay() {
   moonObjs.forEach((moonObj) => {
     moonObj.getOrbit().setVisibility(true);
     moonObj.getOrbit().setHexColor(0x444444);
-    moonObj.setLabelVisibility(showLabels);
+    moonObj.setLabelVisibility(hideLabels);
   });
 }
 
@@ -130,14 +130,14 @@ function updateFilterDisplay(tag) {
     if (matching.has(moonObj.getId())) {
       moonObj.getOrbit().setVisibility(true);
       moonObj.getOrbit().setHexColor(0xffff00);
-      moonObj.setLabelVisibility(showLabels);
+      moonObj.setLabelVisibility(hideLabels);
     } else if (guiState['Hide other orbits']) {
       moonObj.getOrbit().setVisibility(false);
-      moonObj.setLabelVisibility(showLabels);
+      moonObj.setLabelVisibility(hideLabels);
     } else {
       moonObj.getOrbit().setHexColor(0x444444);
       moonObj.getOrbit().setVisibility(true);
-      moonObj.setLabelVisibility(showLabels);
+      moonObj.setLabelVisibility(hideLabels);
     }
   });
 }
