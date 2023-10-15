@@ -68,5 +68,7 @@ camera: {
 
     but by my explorations there is a simple calendbårg we have = woman and there month is a 28 day, to sinchronise whole worlds rutines and by it arrive 13 month exactly because 28*13=364
     actually on clocks we have to have minimum 360° around not twise 60° ... 
-    so, i guess we are on other planet and even map is a just simuation of different continums by different condition, probably simulated by sputnicas & sputnic, artificial satelites arround, which was sent before our arrival on here, to clean weather by circle movements by gravity mm ... i even remember more, but no entusiasts observed on this planet or what is going on?
+    so, i guess we are on other planet and even map is a just simuation of different continums by different condition, probably simulated by sputnicas & sputnic, artificial satelites arround, 
+    which was sent before our arrival on here, to clean weather by circle movements by gravity mm ... 
+    i even remember more, but no entusiasts observed on this planet or what is going on?
 
