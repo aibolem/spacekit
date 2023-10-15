@@ -26,3 +26,12 @@ dat.gui tips:
 https://stackoverflow.com/questions/16166440/refresh-dat-gui-with-new-values
 https://stackoverflow.com/questions/24078251/how-to-hideshow-a-folder-in-dat-guis-controls
 for more see issues #25
+
+  camera: {
+    initialPosition: [
+  
+     0.04, -0.030445338891231168, 0.03616394298897485, 
+      
+    ],
+  },
+![image](https://github.com/aibolem/spacekit/assets/102619282/4a497060-bac5-4301-bbce-80d6c15cea42)
