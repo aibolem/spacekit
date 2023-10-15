@@ -44,5 +44,21 @@ camera: {
 camera: {
     initialPosition: [ 0.1739865009560048, -0.030445338891231168, 0.03616394298897485,],},
 
+    good racurs
+
+
+    old racurs of main.js
+  camera: {
+    initialPosition: [
+  
+     0.1739865009560048, -0.12915937125168006, 0.10357994703146715,
+      
+    ],
+  },
+
+  ![image](https://github.com/aibolem/spacekit/assets/102619282/8ca3aa75-2e57-428c-b946-53d639f169f2)
+
+    
+
     
 
