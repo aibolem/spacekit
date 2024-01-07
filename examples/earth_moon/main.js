@@ -68,7 +68,7 @@ const spaceshipMoon = viz.createObject('tuff guys on spacesheep', {
       ma: 0,
 
       // Where the object is in its orbit.
-      epoch: 2458426.5,
+      epoch: 2460317,
     },
     'deg',
   ),
