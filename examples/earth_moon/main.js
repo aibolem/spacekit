@@ -31,7 +31,7 @@ const earth = viz.createObject(
 const moon = viz.createObject('moon', Spacekit.SpaceObjectPresets.MOON);
 moon.orbitAround(earth);
 
-const spaceship = viz.createObject('Rock to moove', {
+const spaceship = viz.createObject('Rocks to move', {
   labelText: 'Rock to moove',
   ephem: new Spacekit.Ephem(
     {
