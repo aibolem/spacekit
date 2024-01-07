@@ -46,7 +46,7 @@ const spaceship = viz.createObject('Rocks to move', {
       ma: 1.764302192487955e2,
 
       // Where the object is in its orbit.
-      epoch: 2458426.5,
+      epoch: 2460317,
     },
     'deg',
   ),
