@@ -31,8 +31,8 @@ const earth = viz.createObject(
 const moon = viz.createObject('moon', Spacekit.SpaceObjectPresets.MOON);
 moon.orbitAround(earth);
 
-const spaceship = viz.createObject('Rocks to move', {
-  labelText: 'Rocks to move',
+const spaceship = viz.createObject('Rocksky_A₽ØApsis_PeriApsis', {
+  labelText: 'Rocksky_A₽ØApsis_PeriApsis',
   ephem: new Spacekit.Ephem(
     {
       // These parameters define orbit shape.
@@ -53,8 +53,8 @@ const spaceship = viz.createObject('Rocks to move', {
 });
 spaceship.orbitAround(earth);
 
-const spaceshipMoon = viz.createObject('tuff guys on spacesheep', {
-  labelText: 'tuff guys on spacesheep',
+const spaceshipMoon = viz.createObject('spacesheep_მივუახლოვდებით_gей©ева', {
+  labelText: 'spacesheep_მივუახლოვდებით_gей©ева',
   ephem: new Spacekit.Ephem(
     {
       // These parameters define orbit shape.
