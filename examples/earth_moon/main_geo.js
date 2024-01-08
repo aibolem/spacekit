@@ -31,16 +31,18 @@ const earth = viz.createObject(
 const moon = viz.createObject('moon', Spacekit.SpaceObjectPresets.MOON);
 moon.orbitAround(earth);
 
-const spaceship = viz.createObject('Rocksky_A₽ØApsis_PeriApsis', {
+const spaceship = viz.createObject('Rocksky_or_Asteroid_to_move=A₽ØApsis_PeriApsis', {
   labelText: 'Rocksky_A₽ØApsis_PeriApsis',
   ephem: new Spacekit.Ephem(
     {
       // These parameters define orbit shape.
+      // Эксцентриситет e и либо большая полуось a, либо расстояние перицентра q используются для определения формы и размера орбиты.
       a: 0.3,
       e: 0.5,
       i: 52,
 
       // These parameters define the orientation of the orbit.
+      // Долгота восходящего узла Ω, наклонение i и аргумент перицентра ω или долгота перицентра ϖ определяют ориентацию орбиты в ее плоскости.
       om: 3.170946964325638e2,
       w: 1.774865822248395e2,
       ma: 1.764302192487955e2,
@@ -53,8 +55,8 @@ const spaceship = viz.createObject('Rocksky_A₽ØApsis_PeriApsis', {
 });
 spaceship.orbitAround(earth);
 
-const spaceshipMoon = viz.createObject('spacesheep_მივუახლოვდებით_gей©ева', {
-  labelText: 'spacesheep_მივუახლოვდებით_gей©ева',
+const spaceshipMoon = viz.createObject('spaceskepet_მივუახლოვდებით_gей©ева', {
+  labelText: 'spaceskepet_მივუახლოვდებით_gей©ева',
   ephem: new Spacekit.Ephem(
     {
       // These parameters define orbit shape.
