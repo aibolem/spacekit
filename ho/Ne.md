@@ -1,6 +1,6 @@
 # Studying Earth’s Stratospheric Water Vapor
 
-##
+## one more step to remembærung h²o generacion by enorm light (🔅 ljus, and probably шаве holle = wave holle but there are also RGB (0.0.0.) version ☀ too. barionleg 20251214
 
 
 
