@@ -1,7 +1,7 @@
 
 # [დედამიწის სტრატოსფერული წყლის ორთქლის შესწავლა](https://www.nasa.gov/centers-and-facilities/langley/studying-earths-stratospheric-water-vapor/)
 
-
+one more step to remembærung h²o generacion by enorm light (🔅 ljus, and probably шаве holle = wave holle but there are also RGB (0.0.0.) version ☀ too. barionleg 20251214
 
 
 <img width="1536" height="1123" alt="image" src="https://github.com/user-attachments/assets/b5621c7e-6922-40e3-827e-1aad75407ce1" />
